@@ -103,7 +103,7 @@ P = {
 ```
 
 ## OUTPUT:
-![MDP DEE](https://github.com/palamakuladeepika/mdp-representation/assets/94154679/5339225e-ad56-476c-b69e-01dd955308c9)
+![MDP DEE](https://github.com/palamakuladeepika/mdp-representation/assets/94154679/f0de08ce-5d9b-44f8-bbb1-02c228dcdb4c)
 
 
 
