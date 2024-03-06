@@ -1,5 +1,7 @@
 # MDP REPRESENTATION
-### Reg No.: 212221240035
+```
+Date:  ___ / ___ /____
+```
 ## AIM:
 To represent a Markov Decision Process(MDP) problem in the following ways.
 
@@ -32,17 +34,79 @@ To develop an environment consisting of a mobile tower as the start and the hous
 * 0 - Otherwise
 
 ## GRAPHICAL REPRESENTATION:
-![WhatsApp Image 2024-02-22 at 21 40 21_dfc03361](https://github.com/palamakuladeepika/mdp-representation/assets/94154679/8aa3dfca-e536-40b3-90eb-e9803c7b4fc7)
+![Mdp](https://github.com/Pavan-Gv/mdp-representation/assets/94827772/f482c359-1e7c-4484-81d3-35742561103d)
 
 
 ## PYTHON REPRESENTATION:
-![image](https://github.com/Pavan-Gv/mdp-representation/assets/94827772/53afcb85-9c24-4a99-ad39-a03c87da4772)
+```
+Developed By : Palamakula Deepika
+Reg No.: 212221240035
+```
+```python
+P = {
+    0 : {
+        0 : [(1.0, 0, 0.0, False)],
+        1 : [(1.0, 1, 0.0, False)],
+        2 : [(1.0, 2, 0.0, False)],
+        3 : [(1.0, 0, 0.0, False)]
+    },
 
+    1 : {
+        0 : [(1.0, 1, 0.0, False)],
+        1 : [(1.0, 1, 0.0, False)],
+        2 : [(0.8, 3, 0.0, False), (0.2, 1, 0.0, False)],
+        3 : [(0.8, 0, 0.0, False), (0.2, 1, 0.0, False)]
+    },
+
+    2 : {
+        0 : [(0.8, 0, 0.0, False), (0.2, 2, 0.0, False)],
+        1 : [(0.8, 3, 0.0, False), (0.2, 2, 0.0, False)],
+        2 : [(1.0, 2, 0.0, False)],
+        3 : [(1.0, 2, 0.0, False)]
+    },
+
+    3 : {
+        0 : [(0.8, 1, 0.0, False), (0.2, 3, 0.0, False)],
+        1 : [(1.0, 3, 0.0, False)],
+        2 : [(0.8, 4, 0.0, False), (0.2, 3, 0.0, False)],
+        3 : [(0.8, 2, 0.0, False), (0.2, 3, 0.0, False)]
+    },
+
+    4 : {
+        0 : [(0.8, 3, 0.0, False), (0.2, 4, 0.0, False)],
+        1 : [(0.8, 5, 0.0, False), (0.2, 4, 0.0, False)],
+        2 : [(0.8, 6, 0.0, False), (0.2, 4, 0.0, False)],
+        3 : [(1.0, 4, 0.0, False)]
+    },
+
+    5 : {
+        0 : [(1.0, 5, 0.0, False)],
+        1 : [(1.0, 5, 0.0, False)],
+        2 : [(0.8, 7, 1.0, True), (0.2, 5, 0.0, False)],
+        3 : [(0.8, 4, 0.0, False), (0.2, 5, 0.0, False)]
+    },
+
+    6 : {
+        0 : [(0.8, 4, 0.0, False), (0.2, 6, 0.0, False)],
+        1 : [(0.8, 7, 1.0, True), (0.2, 6, 0.0, False)],
+        2 : [(1.0, 6, 0.0, False)],
+        3 : [(1.0, 6, 0.0, False)]
+    },
+
+    7 : {
+        0 : [(1.0, 7, 0.0, True)],
+        1 : [(1.0, 7, 0.0, True)],
+        2 : [(1.0, 7, 0.0, True)],
+        3 : [(1.0, 7, 0.0, True)]
+    }
+}
+```
 
 ## OUTPUT:
-![image](https://github.com/Pavan-Gv/mdp-representation/assets/94827772/2294e571-9b0f-4a48-a256-1d7a9cd7dcb0)
+![MDP DEE](https://github.com/palamakuladeepika/mdp-representation/assets/94154679/5339225e-ad56-476c-b69e-01dd955308c9)
 
 
 
 ## RESULT:
 Thus a real world problem is represented as Markov Decision Problem in the following ways successfully: Text Representation, Graphical Representation, Python Representation
+
