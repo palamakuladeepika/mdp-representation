@@ -34,7 +34,7 @@ To develop an environment consisting of a mobile tower as the start and the hous
 * 0 - Otherwise
 
 ## GRAPHICAL REPRESENTATION:
-![Mdp](https://github.com/Pavan-Gv/mdp-representation/assets/94827772/f482c359-1e7c-4484-81d3-35742561103d)
+![MDP DEE](https://github.com/palamakuladeepika/mdp-representation/assets/94154679/f0de08ce-5d9b-44f8-bbb1-02c228dcdb4c)
 
 
 ## PYTHON REPRESENTATION:
@@ -103,8 +103,7 @@ P = {
 ```
 
 ## OUTPUT:
-![MDP DEE](https://github.com/palamakuladeepika/mdp-representation/assets/94154679/f0de08ce-5d9b-44f8-bbb1-02c228dcdb4c)
-
+![image](https://github.com/Pavan-Gv/mdp-representation/assets/94827772/428915d0-c2d1-4262-ae46-d6e2c94fb38f)
 
 
 ## RESULT:
