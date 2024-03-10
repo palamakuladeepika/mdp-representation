@@ -2,6 +2,8 @@
 ```
 Date:  ___ / ___ /____
 ```
+## DEVELOPED BY : PALAMAKULA DEEPIKA
+## REG NO: 212221240035
 ## AIM:
 To represent a Markov Decision Process(MDP) problem in the following ways.
 
